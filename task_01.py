@@ -12,17 +12,16 @@ def get_current_date():
 
     Args:
         (int): Current day
-        
+
     Returns:
         date: the year, month, day
-        
+
     Examples:
         >>> import task_01
         >>> print task_01.CURDATE
         None
         >>> print task_01.get_current_date()
         datetime.date(2015, 9, 24)
-        
     """
     return datetime.date.today()
 
